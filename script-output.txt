@@ -1,0 +1,10 @@
+yarn run v1.22.10
+$ nest start
+[32m[Nest] 40670   - [39m03/17/2021, 7:28:35 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 40670   - [39m03/17/2021, 7:28:35 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +24ms[39m
+[32m[Nest] 40670   - [39m03/17/2021, 7:28:35 PM   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +10ms[39m
+Connected successfully to server
+Cleanup: 604fe71a9f85572a786c51bb / TEST
+Cleanup: 60513c22f385bf07dd3e742c / test
+Cleanup: 60513eca8c73071958ab6103 / del
+Cleanup: 60513ef68c73071958ab6193 / again
