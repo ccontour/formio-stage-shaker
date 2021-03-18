@@ -7,12 +7,6 @@ export class AppService {
   public static readonly DB_NAME = '';
   public static readonly DB_CONNECT = 'mongodb://localhost:27017';
 
-  private async deleteMany(db, collection, args) {
-    console.log(`Delete ${collection} ${JSON.stringify(args)}`);
-    const results = await db.collection(collection).deleteMany(args);
-    console.log(`Results: ${results}`);
-  }
-
   public async onModuleInit() {
     const client = new MongoClient(AppService.DB_CONNECT, {
       // Add any needed connection options here
